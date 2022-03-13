@@ -1,7 +1,4 @@
 import "./contact.css"
-// import Phone from "../../img/Phone.png"
-// import Email from "../../img/email.png"
-// import Phone from "../../img/phone.pg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faEnvelopeOpenText, faLink, faPhoneSquare} from '@fortawesome/free-solid-svg-icons'
 import { useRef, useState } from "react"
@@ -42,13 +39,13 @@ const Contact = () => {
             </div>
             <div className="c-right">
                 <p className="c-desc">
-                    <b>Whats your project?</b> Get in touch. I would like you to be my next happy and satisfied client
+                <b>Whats your project?</b> Get in touch. I would like you to be my next happy and satisfied client
                 </p>
                 <form ref={formRef} onSubmit={handleSubmit}>
-                    <input type="text" placeholder="Name" name="username"></input>
-                    <input type="text" placeholder="Email" name="email"></input>
-                    <input type="text" placeholder="Subject" name="subject"></input>
-                    <textarea rows="5" placeholder="Message" name="message"></textarea>
+                    <input type="text" placeholder="Name" name="username"/>
+                    <input type="text" placeholder="Email" name="email"/>
+                    <input type="text" placeholder="Subject" name="subject"/>
+                    <textarea rows="5" placeholder="Message" name="message"/>
                     <button>Submit</button> 
                     {done && "Thank you for your feedback, will get back to you soon."}
                </form>

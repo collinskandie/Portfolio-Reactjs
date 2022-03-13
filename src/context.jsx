@@ -7,6 +7,7 @@ const themeReducer =( state,action )=>{
         case "TOGGLE":
             return {darkMode: !state.darkMode};
         default:
-            return state;            
+            return state; 
+            //new            
     }
 };

@@ -11,8 +11,8 @@ const Intro = () => {
                 <hr></hr>
                 <div className="i-title">
                     <div className="i-title-wrapper">
-                        <div className="i-title-item">Web developer</div>
-                        <div className="i-title-item">UI/UX designer</div>
+                        <div className="i-title-item">Fullstack Developer</div>
+                        <div className="i-title-item">Data Analyst</div>
                         <div className="i-title-item">App developer</div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ const Intro = () => {
                     <p>I love software engineering because it gives me an opportunity to practice science, art and commerce all at the same time.
                     </p>
                     <br></br>
-                    <p> He is deeply motivated by the incredible power of technology and loves building solutions that make life better. His current focus and talents are in building software with Python, JavaScript and Java. Head over to the now page to see what he's up to at the moment.</p>
+                    <p> I am deeply motivated by the incredible power of technology and love building solutions that make life better. My current focus and talents are in building software with Python, JavaScript and Java. Head over to the now recent to see what he's up to at the moment.</p>
                 </div>
             </div>
          </div>               

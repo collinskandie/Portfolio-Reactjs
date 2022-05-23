@@ -13,7 +13,7 @@ const About = () => {
         <div className="a-right">
             <h1 className="a-title">About Me</h1>
             <p className="a-sub">I love software engineering because it gives me an opportunity to be creative and build solutions that affect my daily life.</p>
-            <p className="a-desc">I am motivated by technology and I love building solutions that make life better. My current focus is on building software with with Python, JavaScript and Java. Check out my <a href="#">GitHub profile</a> for my previous and current projetcs. You can also check it <a href="#">here.</a></p>
+            <p className="a-desc">I am motivated by technology and I love building solutions that make life better. My current focus is on building software with with Python, JavaScript and Java. Check out my <a href="https://github.com/collinskandie">GitHub profile</a> for my previous and current projetcs. You can also check it <a href="#">here.</a></p>
             <br></br>
             <p className="a-git-title">My github portfolio</p>
                 <div >	

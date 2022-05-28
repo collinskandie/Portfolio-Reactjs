@@ -1,7 +1,7 @@
 .a{
     height: 100vh;
     display: flex;
-    align-items: center;
+    width: 100%;    
 }
 .a-left{
     flex: 1;
@@ -20,7 +20,6 @@
     left: 50px;
     background-color: rgb(19, 18, 18);
 
-
 }
 .a-card{
     width: 60%;
@@ -35,11 +34,44 @@
     border-radius: 30px;
 }
 .a-title{
-    font-weight: 400;
+    font-size: 50px;
+    font-weight: 600;
 }
 .a-sub{
     margin: 20px 0;
 }
 .a-git-title{
    font-weight: 600; 
+}
+@media screen and (max-width:480px){
+    .a{
+        flex-direction: column;
+        /* text-align: center; */
+        margin-top: 50px;
+        width: 100%;
+    }
+    .a-left{
+        align-items: center;
+        padding-left: 50px;        
+        width: 100%;
+    }
+    .a-card{
+        height: 50vh;
+        width: 100%;
+    }
+    .a-card.bg{
+        display: none;
+    }
+    .a-right{
+        margin-left: 10px;
+        width: 150%;
+        padding-top: 30px;
+        align-items: center;
+        flex: 1;
+        width:150%;        
+    }
+    .a-git-title{
+        align-content: center;
+     }      
+    
 }

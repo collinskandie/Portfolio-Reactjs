@@ -1,16 +1,21 @@
 import "./product.css";
-const Product = ({ img, link }) => {
+const Product = ({ img, link, title, desc, gitHub }) => {
   return (
     <div className="pp">
       <div className="p">
-        <a href={link} target="_blank" rel="noreferrer">
-        <img src={img} alt="" className="p-img" />
-        </a>
+        <div className="p-card bg"></div>
+        <div className="p-card">
+          <img src={img} alt="" className="p-img" />
+        </div>
       </div>
       <div className="p-description">
-        <h4>Title</h4>
-        <p>Describe the work done</p>
-        <p>Github link</p>
+        <br />
+        <h4>{title}</h4>
+        <hr></hr>
+        <p>{desc}</p>
+        <p>
+          <a href={gitHub}>GitHub Link</a>
+        </p>
       </div>
     </div>
   );

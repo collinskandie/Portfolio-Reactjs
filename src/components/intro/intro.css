@@ -1,16 +1,22 @@
 .i{
     display: flex; 
     height: 100vh;
+    width: 100%;
 }
 .i-left{
     flex: 1;
+    
 }
 .i-right{
     flex: 1;
     position: relative;
 }
 .i-left-wrapper{
-    padding: 50px; 
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
    
 }
 .i-intro{
@@ -57,4 +63,21 @@
     height: 100%;
     position: absolute;
 
+}
+@media screen and (max-width:480px){
+    .i{
+        flex-direction: column;
+        height: auto;
+    }
+    .i-left-wrapper{
+        padding: 10px;
+        height: 50%;
+        width: 145%; 
+        justify-content: center;
+        /* text-align: center;        */
+    }
+    .i-right{
+        display: none;
+    }    
+    
 }

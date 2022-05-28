@@ -1,13 +1,8 @@
-.pl{
-    padding: 50px 100px;
+.pl{    
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    text-align: center;
-}
-.pl-text{
-    width: 100%;
     align-items: center;
+    text-align: center;
 }
 .pl-title{
     font-size: 50px;
@@ -22,4 +17,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
     
+}
+@media screen and (max-device-width: 480px) {
+    .pl{
+        flex-direction: column;
+         width: 100%; 
+    }    
 }

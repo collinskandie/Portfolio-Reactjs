@@ -1,46 +1,59 @@
-
-.pp{
+.projects .item{
     display: flex;
-}
-.p{
-    width: 10%;
-    height: auto;
-    margin: 20px 10px;
-    border: 2px solid #808080;
-    border-radius: 10px;
-    overflow: hidden;
-    flex: 1;
-
-}
-.p-description{
-    flex: 1;
+    align-items: center;
     text-align: left;
+    /* justify-content: right; */
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 8rem;
 }
-
+.projects .item:nth-child(even){
+    flex-direction: row-reverse;
+}
+.projects .left{
+    flex: 1;
+}
+.projects .right{
+    flex: 2.5;
+    margin-left: -150px;
+    background-color:white;
+    padding: 5rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #00000028;
+    z-index: 2;
+}
+.projects .left .img {
+   height: 500px;
+   overflow: hidden;
+   border-radius: 12px;
+   box-shadow: 0 0 20px #00000028;
+}
+.buttons {
+	margin-top: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+    
+}
+.primary-btn {
+	display: inline-block;
+	background-color: green;
+	color: white;
+	padding: 0.6em 1.6em;
+	border-radius: 50px;
+    text-decoration: none;
+}
+.buttons .primary-btn.outline {
+	background-color: transparent;
+    text-decoration: none;
+	border: 2px solid green;
+	color: var(--primary-color);
+}
+.buttons svg {
+	width: 50px;
+	color: var(--primary-color);
+}
 .p-img{
-    width: 100%;
-    transition: all 10s ease;
-
-}
-@media screen and (max-width: 450px) {
-   
-.pp{
-    width: 100%;    
-    flex-direction: column;
-}
-.p{
-    width: 130%;
-    height: auto;
-    margin: 20px;
-    border-radius: 30px;
-}
-.p-description{
-    width: 130%;  
-    text-align: center;
-} 
-.p-img{
-    width: 100%;
-    height: 30vh;
-}
     
 }

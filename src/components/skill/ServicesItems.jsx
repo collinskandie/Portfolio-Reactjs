@@ -1,14 +1,17 @@
 import React from 'react'
-import {MdDesktopMac} from 'react-icons/md'
 // import Ptext from './Ptext';
 
-function ServicesItems() {
+function ServicesItems({img, title, desc}) {
   return (
 <div>
-   <div className='servicesIcon'>
-      <MdDesktopMac/>
-      <div className='serviceTitle'>Web Design</div>
-      {/* <Ptext>I am motivated by technology and I love building solutions that make life better. My current focus is on building software with with Python, JavaScript and Java. Check out my <a href="#">GitHub profile</a> for my previous and current projetcs. You can also check it </Ptext> */}
+   <div className='left'>
+     <img src={img} alt=""></img>
+   </div>
+   <div className='right'>
+     <div className="title">
+       <h3>{title}</h3>
+     </div>
+     <div className="desc">{desc}</div>
    </div>
 </div>
   )

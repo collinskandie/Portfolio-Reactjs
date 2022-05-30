@@ -1,59 +1,81 @@
-.projects .item{
-    display: flex;
-    align-items: center;
-    text-align: left;
-    /* justify-content: right; */
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 8rem;
+.projects .item {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  /* justify-content: right; */
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
 }
-.projects .item:nth-child(even){
-    flex-direction: row-reverse;
+.projects .item:nth-child(even) {
+  flex-direction: row-reverse;
 }
-.projects .left{
-    flex: 1;
+.projects .left {
+  flex: 1;
 }
-.projects .right{
-    flex: 2.5;
-    margin-left: -150px;
-    background-color:white;
-    padding: 5rem 3rem;
-    border-radius: 12px;
-    box-shadow: 0 0 20px #00000028;
-    z-index: 2;
+.projects .left .project-title {
+  color: green;
+}
+.projects .right {
+  flex: 1.5;
+  margin-left: -150px;
+  background-color: white;
+  padding: 5rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00000028;
+  z-index: 2;
 }
 .projects .left .img {
-   height: 500px;
-   overflow: hidden;
-   border-radius: 12px;
-   box-shadow: 0 0 20px #00000028;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00000028;
+  position: relative;
 }
+.projects .left .img::after{
+  position: absolute;
+  /* content: ''; */
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(231, 248, 231);
+}
+
+.projects .left .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.3 ease transform;
+}
+.project .item:hover .left .img img{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
 .buttons {
-	margin-top: 3rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	gap: 1rem;
-    
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  cursor: pointer;
 }
 .primary-btn {
-	display: inline-block;
-	background-color: green;
-	color: white;
-	padding: 0.6em 1.6em;
-	border-radius: 50px;
-    text-decoration: none;
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 0.6em 1.6em;
+  border-radius: 50px;
+  text-decoration: none;
 }
 .buttons .primary-btn.outline {
-	background-color: transparent;
-    text-decoration: none;
-	border: 2px solid green;
-	color: var(--primary-color);
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid green;
+  color: var(--primary-color);
 }
 .buttons svg {
-	width: 50px;
-	color: var(--primary-color);
-}
-.p-img{
-    
+  width: 15px;
+  color: green;
 }

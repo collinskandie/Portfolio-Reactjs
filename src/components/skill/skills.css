@@ -1,43 +1,7 @@
-.s{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-}
-.s-left{
-    flex: 1;
-    
-}
-.s-right{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 100%;
-}
-.-card.bg{
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    background-color: rgb(19, 18, 18);
-
-
-}
-.s-card{
-    width: 60%;
-    height: 70vh;
-    border-radius: 30px;
-    position: relative;
-}
-.s-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 30px;
-}
 .s-title{
-    font-weight: 400;
-}
-.s-sub{
-    margin: 20px 0;
-}
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }

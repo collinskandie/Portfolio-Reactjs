@@ -13,6 +13,9 @@ const ProductList = () => {
           <Product key={item.id} img={item.img} link={item.livelink} title={item.title} desc={item.description} gitHub={item.gitHubLink} />
         ))}
       </div>
+      <div className="linkNow">
+        <p>Want to see more projects? <a href="./" className="button">Click here...</a></p>        
+      </div>
     </div>
   );
 };

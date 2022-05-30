@@ -1,12 +1,12 @@
 .c {
-    height: 100vh;
+    height: auto;
     position: relative;
   }
   
   .c-bg {
     width: 20px;
     height: 100%;
-    background-color: #59b256;
+    background-color: green;
     position: absolute;
   }
   
@@ -71,15 +71,19 @@
     padding-left: 10px;
   }
   
-  button {
-    border: none;
-    padding: 15px;
-    background-color: #59b256;
+  button {      
+    align-items: center;
+    justify-content: flex-start;
+    background-color: green;
     color: white;
-    font-weight: 500;
+    font-weight: 500px;
     cursor: pointer;
-  }
-  
+    display: inline-block;    
+    padding: 0.6em 1.6em;
+    border-radius: 50px;
+    text-decoration: none;
+    border: green;
+  }  
   @media screen and (max-width: 480px) {
     .c-wrapper {
       flex-direction: column;

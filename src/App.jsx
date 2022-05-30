@@ -4,6 +4,8 @@ import ProductList from "./components/productList/Productlist";
 import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 import Skills from "./components/skill/Skills";
+import Events from "./components/events/Events";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   
@@ -14,7 +16,9 @@ const App = () => {
   <About/>
   <Skills/>
   <ProductList/>
+  <Events/>
   <Contact/>
+  <Footer/>
   
   </div>
   )

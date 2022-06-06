@@ -1,15 +1,25 @@
 import React from "react";
 import "./skills.css";
 import ServicesItems from "./ServicesItems";
-import {Services} from "../../data"
+import { Services } from "../../data";
 
 function Skills() {
   return (
-    <div>
-      <h1 className="s-title">Services</h1>
-      {Services.map((item) => (
-          <ServicesItems key={item.id} img={item.img} title={item.title} desc={item.description} />
+    <div className="container">
+      <div className="s-heading">
+        <h1>Services</h1>
+        <p>Some of the service I provide</p>
+      </div>
+      <div className="all-skillitems">
+        {Services.map((item) => (
+          <ServicesItems
+            key={item.id}
+            img={item.img}
+            title={item.title}
+            desc={item.description}
+          />
         ))}
+      </div>
     </div>
   );
 }

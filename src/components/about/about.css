@@ -64,11 +64,10 @@
     }
     .a-right{
         margin-left: 10px;
-        width: 150%;
+        width: 145%;
         padding-top: 30px;
         align-items: center;
-        flex: 1;
-        width:150%;        
+        flex: 1;               
     }
     .a-git-title{
         align-content: center;

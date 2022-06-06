@@ -79,3 +79,25 @@
   width: 15px;
   color: green;
 }
+@media only screen and (max-width: 480px) {
+  .projects{
+    width: 100%;
+  }
+  .projects .item{
+    flex-direction: column;
+
+  }
+  .projects .item .left{
+    width: 150%;
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+  .projects .item .right{
+    width: 120%;
+    margin: 20px auto;
+    margin-left: 2rem;
+    margin-top: -150px;
+    border:1px solid darkgreen;
+  }
+  
+}

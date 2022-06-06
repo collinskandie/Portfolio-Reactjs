@@ -82,6 +82,7 @@ button {
     .i{
         flex-direction: column;
         height: auto;
+        width: 100%;
     }
     .i-left-wrapper{
         padding: 10px;

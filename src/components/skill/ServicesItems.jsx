@@ -1,20 +1,23 @@
-import React from 'react'
+import React from "react";
+import "./skillitems.css";
 // import Ptext from './Ptext';
 
-function ServicesItems({img, title, desc}) {
+function ServicesItems({ img, title, desc }) {
   return (
-<div>
-   <div className='left'>
-     <img src={img} alt=""></img>
-   </div>
-   <div className='right'>
-     <div className="title">
-       <h3>{title}</h3>
-     </div>
-     <div className="desc">{desc}</div>
-   </div>
-</div>
-  )
+    <div className="s-skills">
+      <div className="s-item">
+            <div className="s-left">
+              <div className="s-img">
+                <img src={img} alt="" />
+              </div>
+            </div>
+            <div className="s-right">
+              <h2 className="s-project-title">{title}</h2>
+              <p className="s-project-desc">{desc}</p>              
+            </div>
+          </div>
+    </div>
+  );
 }
 
-export default ServicesItems
+export default ServicesItems;

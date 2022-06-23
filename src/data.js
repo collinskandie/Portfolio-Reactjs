@@ -1,6 +1,6 @@
 import pics from "./img/react.png"
 // import jspic from "./img/js.png"
-import djangopic from "./img/django.png"
+import djangopic from "./img/protaxsol.jpeg"
 import jupyter from "./img/jupyter.png"
 import Freelance from "./img/freelance.jfif"
 import MobileApp from "./img/mobileApp.jfif"
@@ -17,10 +17,10 @@ export const products = [
     {
       id: 2,
       img: djangopic,
-      livelink: "https://collinskandieportfolio.web.app",
-      title:"Django Project",
-      description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-      gitHubLink:""
+      livelink: "https://collinskandie.github.io/Protaxsol-website",
+      title:"Protaxsol Consultants Website",
+      description:"This is a website for a tax consulting firm in Eldoret. The site is made with html and bootstraps. It was an introduction to using bootstraps and i used it as alearning phase. I was able to practice creating mobile responsive web pages. The challenges i faced is learning how to style the pages without using `bootstrap's primary colours`. ",
+      gitHubLink:"https://github.com/collinskandie/Protaxsol-website.git"
     },
     {
       id: 3,

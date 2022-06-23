@@ -11,6 +11,7 @@ const Contact = () => {
         emailjs.sendForm('service_9d95q7b', 'template_9j195e4', formRef.current, 'Yek7U9wnGpr-aDa3W').then((result) => {
             console.log(result.text);
             setDone(true);
+            alert("Message send");
         }, (error) => {
             console.log(error.text);
         });
@@ -46,7 +47,7 @@ const Contact = () => {
                     <input type="text" placeholder="Email" name="email"/>
                     <input type="text" placeholder="Subject" name="subject"/>
                     <textarea rows="5" placeholder="Message" name="message"/>
-                    <button>Submit</button> 
+                    <button type="submit">Submit</button> 
                     {done && "Thank you for your feedback, will get back to you soon."}
                </form>
             </div>

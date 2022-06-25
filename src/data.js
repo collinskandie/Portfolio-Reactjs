@@ -4,7 +4,7 @@ import djangopic from "./img/django.png"
 import jupyter from "./img/jupyter.png"
 import Freelance from "./img/freelance.jfif"
 import MobileApp from "./img/mobileApp.jfif"
-import WebApp from "./img/webApp.png"
+//import WebApp from "./img/webApp.png"
 export const products = [
   {
       id: 1,
@@ -34,7 +34,7 @@ export const products = [
   export const Services = [
     {
       id:1 ,
-      img: WebApp,
+      img: jupyter,
       title:"Full Stack Web Developer",
       description:"Full Stack Web Developer,Full Stack Web DeveloperFull Stack Web DevelopervFull Stack Web DevelopervvFull Stack Web DeveloperFull Stack Web Developerv"
 

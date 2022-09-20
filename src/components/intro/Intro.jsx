@@ -30,13 +30,13 @@ const Intro = () => {
               I am deeply motivated by the incredible power of technology and I
               love building solutions that make life better. My current focus is
               building software with Python and JavaScript. Head over to the{" "}
-              <a href="./">recent page</a> to see what I am working on.
+              <a href="">recent page</a> to see what I am working on.
             </p>
           </div>
           <br/>
           <div>
             <span>
-              <a href="./" className="button">
+              <a href="https://collinskandieportfolio.web.app" className="button">
                 Learn more...
               </a>
             </span>
